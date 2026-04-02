@@ -8,9 +8,10 @@ export default function Overlay() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.5, ease: [0.43, 0.13, 0.23, 0.96] }}
-          className="font-sans text-2xl md:text-3xl font-light text-white tracking-wide"
+          className="font-sans text-4xl md:text-6xl font-bold text-white tracking-widest uppercase"
+          style={{ textShadow: "0 0 40px rgba(255,255,255,0.4), 0 2px 20px rgba(0,0,0,0.8)" }}
         >
-          Kinetic Frame
+          ТОПЧИКИ
         </motion.h1>
       </div>
     </div>
